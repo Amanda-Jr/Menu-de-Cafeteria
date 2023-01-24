@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    font-size: 16px;
+}
+
+
+
+body{
+    margin: auto;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    color: #f1dca7;
+    background-color: #2f190f;
+    /*#2f190f*/
+    
+}
+
+header {
+    background-color: #1d0f0e;
+    padding: 15px 15px 25px 15px;
+}
+
+h1 {
+    color: #589f89;
+    font-family: 'Merienda', cursive;
+    font-size: 2.5rem;
+    text-align: center;
+    text-shadow: 2px 2px #f1dca7;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+nav {
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+nav ul li {
+    display: inline-flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.nav__a {
+    text-decoration: none;
+    color: #f1dca7;
+    font-weight: 500;
+    list-style-type: none;
+    
+}
+
+
+details{
+    color: #cec09de0;
+}
+
+summary{
+    font-weight: bold;
+}
+
+section {
+    margin-top: 20px;
+    padding: 5%;
+    
+}
+
+div {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.div__imagem {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.div__imagem-mod {
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.grande {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.escuro {
+    background-color:#27110d;
+}
+
+.voltar {
+    margin-top: 100px ;
+}
+
+
+footer {
+    background-color: #1d0f0e;
+    padding: 7%;
+    margin-bottom: 0;
+}
+
+
+
+@media screen and (min-width:830px) {
+
+    body {
+        
+        font-size: 24px;
+    }
+    
+
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        font-size: 1.1rem;
+        text-align: center ;
+        align-items: center;
+    }
+
+
+    h1 {
+        font-size: 4rem;
+        margin-top: 30px;
+    }
+
+    h2 {
+        margin-bottom: 2%;
+        font-size: 44px;
+    }
+
+    section {
+       margin-top: 10px; 
+       padding: 30px;
+    }
+
+    div {
+        margin-top: 20px;
+    }
+
+    .div__imagem {
+        margin-left: 400px;
+        margin-right: 400px;
+        margin-bottom: 10px;
+    }
+
+    .icon {
+        margin-right: 20px;
+    }
+
+    li>a:hover {
+        color: #806d3f;
+    }
+
+    footer {
+        margin: none;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;   
+    }
+
+    
+
+}
+
+/*Trecho cod pra testar dps
+.cartilha-list-item {
+    opacity: 1; 
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); 
+    transform-style: preserve-3d;
+}
+*/
+    
+
